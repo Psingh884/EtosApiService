@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiService", "EtosApiService\EtosApiService.csproj", "{97802222-3AA7-4845-91CA-F560FBC91CF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.Business", "EtosApiServices.Business\EtosApiServices.Business.csproj", "{4C89B0B4-AA41-484A-B507-D2D87325A93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.Data.Library", "EtosApiServices.Data.Library\EtosApiServices.Data.Library.csproj", "{5D87D6AB-E14E-4037-B453-B80D13F6278C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.DataBase.Dapper", "EtosApiServices.DataBase.Dapper\EtosApiServices.DataBase.Dapper.csproj", "{BEC2123E-80B1-403A-BA78-2A8F462628E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.Flight.Library", "EtosApiServices.Flight.Library\EtosApiServices.Flight.Library.csproj", "{B59E23FC-AD70-46FB-8653-D56D9DC34C1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.GenericRepository", "EtosApiServices.GenericRepository\EtosApiServices.GenericRepository.csproj", "{2F1FF9CE-C559-45B6-97CB-F126A46AB29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.Model", "EtosApiServices.Model\EtosApiServices.Model.csproj", "{60DA18EB-9253-4775-8026-BBE385DB3904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.Flight.Model", "EtosApiServices.Flight.Model\EtosApiServices.Flight.Model.csproj", "{F83C0E2E-F31B-48A0-B31D-29FEA2BD548C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.Hotel.Library", "EtosApiServices.Hotel.Library\EtosApiServices.Hotel.Library.csproj", "{FCDCBD89-C558-4F07-ACB8-C9770A87B139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.Hotel.Model", "EtosApiServices.Hotel.Model\EtosApiServices.Hotel.Model.csproj", "{5851D810-587C-497C-A156-EB599BC22195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtosApiServices.MongoDb.Library", "EtosApiServices.MongoDb.Library\EtosApiServices.MongoDb.Library.csproj", "{DF99FF68-E3FA-413E-AA3F-F24D3C4B8A88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97802222-3AA7-4845-91CA-F560FBC91CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97802222-3AA7-4845-91CA-F560FBC91CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97802222-3AA7-4845-91CA-F560FBC91CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97802222-3AA7-4845-91CA-F560FBC91CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C89B0B4-AA41-484A-B507-D2D87325A93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C89B0B4-AA41-484A-B507-D2D87325A93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C89B0B4-AA41-484A-B507-D2D87325A93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C89B0B4-AA41-484A-B507-D2D87325A93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D87D6AB-E14E-4037-B453-B80D13F6278C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D87D6AB-E14E-4037-B453-B80D13F6278C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D87D6AB-E14E-4037-B453-B80D13F6278C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D87D6AB-E14E-4037-B453-B80D13F6278C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC2123E-80B1-403A-BA78-2A8F462628E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC2123E-80B1-403A-BA78-2A8F462628E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC2123E-80B1-403A-BA78-2A8F462628E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC2123E-80B1-403A-BA78-2A8F462628E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59E23FC-AD70-46FB-8653-D56D9DC34C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59E23FC-AD70-46FB-8653-D56D9DC34C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59E23FC-AD70-46FB-8653-D56D9DC34C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59E23FC-AD70-46FB-8653-D56D9DC34C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1FF9CE-C559-45B6-97CB-F126A46AB29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1FF9CE-C559-45B6-97CB-F126A46AB29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1FF9CE-C559-45B6-97CB-F126A46AB29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1FF9CE-C559-45B6-97CB-F126A46AB29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DA18EB-9253-4775-8026-BBE385DB3904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DA18EB-9253-4775-8026-BBE385DB3904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DA18EB-9253-4775-8026-BBE385DB3904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DA18EB-9253-4775-8026-BBE385DB3904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83C0E2E-F31B-48A0-B31D-29FEA2BD548C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83C0E2E-F31B-48A0-B31D-29FEA2BD548C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83C0E2E-F31B-48A0-B31D-29FEA2BD548C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83C0E2E-F31B-48A0-B31D-29FEA2BD548C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDCBD89-C558-4F07-ACB8-C9770A87B139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDCBD89-C558-4F07-ACB8-C9770A87B139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDCBD89-C558-4F07-ACB8-C9770A87B139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDCBD89-C558-4F07-ACB8-C9770A87B139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5851D810-587C-497C-A156-EB599BC22195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5851D810-587C-497C-A156-EB599BC22195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5851D810-587C-497C-A156-EB599BC22195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5851D810-587C-497C-A156-EB599BC22195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF99FF68-E3FA-413E-AA3F-F24D3C4B8A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF99FF68-E3FA-413E-AA3F-F24D3C4B8A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF99FF68-E3FA-413E-AA3F-F24D3C4B8A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF99FF68-E3FA-413E-AA3F-F24D3C4B8A88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DFEFDB8-1B91-43D3-8C08-310DF874DEF4}
+	EndGlobalSection
+EndGlobal
